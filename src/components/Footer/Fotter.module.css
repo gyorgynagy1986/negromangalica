@@ -1,0 +1,164 @@
+.container {
+  min-height: 25.8rem;
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.containerTextleftReserved span {
+  margin-left: 1rem;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerTextleft {
+  width: 100%;
+  max-width: var(--maxWidth2);
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerTextP {
+  max-width: 425px;
+}
+
+.containerTextleftCookieMobile {
+  display: none;
+}
+
+.containerTextleft button {
+  margin-bottom: 0.5rem;
+}
+
+.containerTextleftP {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.containerTextleftReserved {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 21px */
+  display: flex;
+  gap: 1rem;
+}
+
+.containerTextleftCookie {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+}
+
+.learnMore {
+  font-weight: 700;
+  font-size: 16px !important;
+  line-height: auto;
+  color: #261500;
+  display: contents;
+}
+
+.learnMore:hover {
+  color: black;
+}
+
+.containerCookie {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stdbromo {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin-top: 2rem;
+  }
+
+  .containerTextleft {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    min-height: 36.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .containerTextleft {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 27rem;
+    text-align: center;
+  }
+
+  .containerTextleft a {
+    margin: 0 !important;
+  }
+
+  .containerCookie {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .containerTextleftReserved {
+    display: flex;
+    margin-top: 11px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .mobileTurn {
+    transform: rotateZ(90deg);
+  }
+
+  .containerTextleftCookie {
+    display: none;
+  }
+
+  .containerTextleftCookieMobile {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 4rem;
+  }
+}

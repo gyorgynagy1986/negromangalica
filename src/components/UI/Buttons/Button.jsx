@@ -1,0 +1,23 @@
+import Link from 'next/link'
+import React from 'react'
+import style from './Button.module.css'
+import { IBM_Plex_Sans } from 'next/font/google'
+
+const mukta = IBM_Plex_Sans({ subsets: ['latin'], weight: "700" })
+
+const Button = ({name, url, btnBlue, }) => {
+
+  return (
+    <Link href={url}>
+      <button 
+        className={
+          `${style.button}
+           ${btnBlue && style.butnBlue}
+           ${mukta.className}`}>
+          {name}
+      </button>
+    </Link>
+  )
+}
+
+export default Button

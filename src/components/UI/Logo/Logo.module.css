@@ -1,0 +1,32 @@
+.logo {
+  left: 8.5rem;
+  top: 5px;
+  z-index: 0;
+  position: absolute;
+}
+
+.logo img {
+  width: auto;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .logo {
+    left: 4rem;
+    width:auto;
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 681px) {
+  .logo {
+    left: 2rem;
+    top: 10px;
+  }
+
+  .logo img {
+    width: auto;
+    height: auto;
+  }
+}
