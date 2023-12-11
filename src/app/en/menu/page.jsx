@@ -26,7 +26,7 @@ const Menu = () => {
           onClick={handleClickFood}
           placeholder="blur"
           priority
-          alt="Drink menu of Negro mangalica restaurant"
+          alt="Drink menu of Negro Mangalica restaurant"
           src={itallap}
         />
         <Image
@@ -34,7 +34,7 @@ const Menu = () => {
           onClick={handleClickDrinks}
           placeholder="blur"
           priority
-          alt="Negro mangalica Restaurant Menu"
+          alt="Negro Mangalica Restaurant Menu"
           src={etlap}
         />
       </div>

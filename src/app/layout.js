@@ -8,9 +8,9 @@ import Divider from "@/components/UI/Divider/Divider";
 const mukta = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500"] });
 
 export const metadata = {
-  title: "Negro mangalica",
+  title: "Negro Mangalica",
   description:
-    "Az Negro mangalica egy Deli és bár Budapesten, ahol spanyol ízekkel kényeztetünk helyben és elvitelre is. ",
+    "Az Negro Mangalica egy Deli és bár Budapesten, ahol spanyol ízekkel kényeztetünk helyben és elvitelre is. ",
 };
 
 export default function RootLayout({ children }) {

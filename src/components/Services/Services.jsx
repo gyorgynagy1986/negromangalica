@@ -36,7 +36,7 @@ const Services = ({ lang }) => {
         <div className={style.imageContainer}>
           <Image
             placeholder="blur"
-            alt="Negro mangalica"
+            alt="Negro Mangalica"
             src={HeroCoverPhoto}
           />
         </div>

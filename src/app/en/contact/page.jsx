@@ -15,7 +15,7 @@ import { links } from "../../links";
 
 const textContent = {
   h1: "Contact",
-  h3: "Negro mangalica",
+  h3: "Negro Mangalica",
   btn: "book a table now",
   btn2: "Contact",
 };
@@ -35,7 +35,7 @@ const Contact = () => {
             className={style.imagehover}
             placeholder="blur"
             priority
-            alt="Negro mangalica"
+            alt="Negro Mangalica"
             src={mapPhoto}
           />
         </div>
@@ -58,14 +58,14 @@ const Contact = () => {
           <div className={style.btnContainer}>
             <div className={style.socialContainerItem}>
               <Image
-                alt="Facebook page of Negro mangalica restaurant"
+                alt="Facebook page of Negro Mangalica restaurant"
                 src={facebook}
               />
               <ButtonGetInTouch url={links.facebook} name={"facebook"} />
             </div>
             <div className={style.socialContainerItem}>
               <Image
-                alt="Instagram page of Negro mangalica restaurant"
+                alt="Instagram page of Negro Mangalica restaurant"
                 src={instagram}
               />
               <ButtonGetInTouch url={links.instagram} name={"instagram"} />

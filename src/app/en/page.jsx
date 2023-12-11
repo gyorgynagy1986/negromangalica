@@ -9,10 +9,10 @@ import Services from "@/components/Services/Services";
 import Divider from "@/components/UI/Divider/Divider";
 
 const links = {
-  facebook: "https://www.facebook.com/Negro mangalicachicken/?locale=hu_HU",
-  instagram: "https://www.instagram.com/Negro mangalicabp/?hl=hu",
+  facebook: "https://www.facebook.com/Negro Mangalicachicken/?locale=hu_HU",
+  instagram: "https://www.instagram.com/Negro Mangalicabp/?hl=hu",
   reservation:
-    "https://reservours.com/Negro mangalica/tablereservation?s=website",
+    "https://reservours.com/Negro Mangalica/tablereservation?s=website",
 };
 
 export default function Home() {

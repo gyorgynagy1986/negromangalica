@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Kapcsolat - Negro mangalica",
+  title: "Kapcsolat - Negro Mangalica",
 };
 
 const Pagelayout = ({ children }) => {

@@ -16,7 +16,7 @@ const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h1: "Kapcsolat",
-  h3: "Negro mangalica",
+  h3: "Negro Mangalica",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
 };
@@ -36,7 +36,7 @@ const Contact = () => {
             className={style.imagehover}
             placeholder="blur"
             priority
-            alt="Negro mangalica"
+            alt="Negro Mangalica"
             src={mapPhoto}
           />
         </div>
@@ -59,14 +59,14 @@ const Contact = () => {
           <div className={style.btnContainer}>
             <div className={style.socialContainerItem}>
               <Image
-                alt="Negro mangalica étterem facebook oldala"
+                alt="Negro Mangalica étterem facebook oldala"
                 src={facebook}
               />
               <ButtonGetInTouch url={links.facebook} name={"facebook"} />
             </div>
             <div className={style.socialContainerItem}>
               <Image
-                alt="Negro mangalica étterem instagram oldala"
+                alt="Negro Mangalica étterem instagram oldala"
                 src={instagram}
               />
               <ButtonGetInTouch url={links.instagram} name={"instagram"} />

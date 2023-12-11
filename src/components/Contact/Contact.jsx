@@ -17,7 +17,7 @@ const textContent = {
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
   url: "/kapcsolat",
-  alt: "Negro mangalica térkép",
+  alt: "Negro Mangalica térkép",
 };
 
 const textContentEn = {
@@ -25,7 +25,7 @@ const textContentEn = {
   btn: "book a table now",
   btn2: "Get in Touch",
   url: "/en/contact",
-  alt: "Negro mangalica map",
+  alt: "Negro Mangalica map",
 };
 
 const Contact = ({ reservation, lang }) => {

@@ -11,7 +11,7 @@ const Logo = ({ onClick, mobileClose }) => {
         <Image
           onClick={mobileClose}
           priority
-          alt="Negro mangalica étterem logója"
+          alt="Negro Mangalica étterem logója"
           src={logo}
         />
       </Link>

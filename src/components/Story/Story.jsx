@@ -39,7 +39,7 @@ const Story = ({ lang }) => {
           <Image
             placeholder="blur"
             priority
-            alt="Negro mangalica"
+            alt="Negro Mangalica"
             src={ourStoryCoverPhoto}
           />
         </div>

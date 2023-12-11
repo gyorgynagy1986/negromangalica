@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "Negro mangalica",
+  title: "Negro Mangalica",
   description:
-    "Negro mangalica is a Deli and Bar in Budapest, offering Spanish flavors for dine-in and take-out. ",
+    "Negro Mangalica is a Deli and Bar in Budapest, offering Spanish flavors for dine-in and take-out. ",
 };
 
 const EngPagelayout = ({ children }) => {

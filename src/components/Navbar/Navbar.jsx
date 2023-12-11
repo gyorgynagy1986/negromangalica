@@ -93,10 +93,7 @@ const Navbar = ({ NavFooter, nav, stickyPosition, colorMobileMenu }) => {
       <nav className={navClass}>
         {NavFooter && (
           <Link className={linkClass} href="/">
-            <Image
-              alt="étterem logója"
-              src={logo}
-            />
+            <Image alt="étterem logója" src={logo} />
           </Link>
         )}
 
@@ -118,10 +115,10 @@ const Navbar = ({ NavFooter, nav, stickyPosition, colorMobileMenu }) => {
           </ul>
           <div className={socialLinkContainerLogic}>
             <Link href={links.facebook}>
-              <Image src={facebook} alt="Negro mangalica facebbok oldala" />
+              <Image src={facebook} alt="Negro Mangalica facebbok oldala" />
             </Link>
             <Link href={links.instagram}>
-              <Image src={instagram} alt="Negro mangalica instagram oldala" />
+              <Image src={instagram} alt="Negro Mangalica instagram oldala" />
             </Link>
           </div>
           <div className={languageLinksLogic}>

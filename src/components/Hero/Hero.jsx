@@ -53,7 +53,7 @@ const Hero = ({ reservation, lang }) => {
       <div className={style.imageContainer}>
         <Image
           placeholder="blur"
-          alt="Negro mangalica"
+          alt="Negro Mangalica"
           priority
           src={HeroCoverPhoto}
         />
