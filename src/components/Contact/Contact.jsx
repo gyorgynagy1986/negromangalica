@@ -34,7 +34,7 @@ const Contact = ({ reservation, lang }) => {
   const btnNameLogic2 = !lang ? textContent.btn2 : textContentEn.btn2;
 
   const handleClickMap = () => {
-    window.location.href = "https://goo.gl/maps/dhNWT2SNQjV4JENh8";
+    window.location.href = "https://maps.app.goo.gl/xaJvzrspqnAv693b9";
   };
 
   return (
