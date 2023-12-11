@@ -9,10 +9,10 @@ import facebook from "../../../public/assets/social/facebook.svg";
 import instagram from "../../../public/assets/social/instagram.svg";
 import Direction from "./../../../public/assets/icons/directions.svg";
 import Link from "next/link";
-import { Orelega_One } from "next/font/google";
+import { Grand_Hotel } from "next/font/google";
 import { links } from "../links";
 
-const dosis = Orelega_One({ subsets: ["latin"], weight: "400" });
+const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h1: "Kapcsolat",

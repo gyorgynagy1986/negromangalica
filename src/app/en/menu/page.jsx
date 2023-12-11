@@ -4,9 +4,9 @@ import Image from "next/image";
 import etlap from "../../../../public/assets/menu/1.jpg";
 import itallap from "../../../../public/assets/menu/2_eng.jpg";
 import style from "./page.module.css";
-import { Orelega_One } from "next/font/google";
+import { Grand_Hotel } from "next/font/google";
 
-const dosis = Orelega_One({ subsets: ["latin"], weight: "400" });
+const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const Menu = () => {
   const handleClickFood = () => {

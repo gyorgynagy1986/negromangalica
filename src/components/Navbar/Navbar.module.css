@@ -153,6 +153,10 @@
   pointer-events: none;
 }
 
+.ulCenter {
+  border: none;
+}
+
 @media only screen and (max-width: 1275px) {
 
   .lng {

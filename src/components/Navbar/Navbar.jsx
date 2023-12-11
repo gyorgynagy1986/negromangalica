@@ -95,7 +95,7 @@ const Navbar = ({ NavFooter, nav, stickyPosition, colorMobileMenu }) => {
           <Link className={linkClass} href="/">
             <Image
               alt="étterem logója"
-              src={logo_footer}
+              src={logo}
             />
           </Link>
         )}
