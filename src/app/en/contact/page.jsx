@@ -22,7 +22,7 @@ const textContent = {
 
 const Contact = () => {
   const handleClickMap = () => {
-    window.location.href = "https://goo.gl/maps/dhNWT2SNQjV4JENh8";
+    window.location.href = "https://maps.app.goo.gl/xaJvzrspqnAv693b9";
   };
 
   return (
@@ -46,13 +46,13 @@ const Contact = () => {
               <p className={style.contactText}>
                 1111 Budapest, Bartók Béla út 16.
               </p>
-              <Link href="https://goo.gl/maps/dhNWT2SNQjV4JENh8">
+              <Link href="https://maps.app.goo.gl/xaJvzrspqnAv693b9">
                 <Image alt="direction" src={Direction} />
               </Link>
             </div>
 
             <p className={style.contactText}>+36 20 476 6558</p>
-            <p className={style.contactText}>hola@umartinez.hu</p>
+            <p className={style.contactText}>hello@negromangalica.hu</p>
           </div>
 
           <div className={style.btnContainer}>

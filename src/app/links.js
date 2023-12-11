@@ -1,6 +1,6 @@
 export const links = {
-  facebook: "https://www.facebook.com/ultramarinosbp/",
-  instagram: "https://www.instagram.com/ultramarinosbp/",
+  facebook: "",
+  instagram: "",
   reservation:
-    "https://reservours.com/ultramarinosmartinezspanyoldeli/tablereservation?s=instagram",
+    "https://reservours.com/negromangalica/tablereservation?s=google",
 };
