@@ -11,16 +11,16 @@ const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h4: "Rólunk",
-  p: "2023-ban nyitottuk meg Budapest első spanyol colmadoját a Bartók Béla úton, a Szent Gellért tér közvetlen közelében, és azóta rendületlenül igyekszünk megnyerni minden hozzánk betérő vendég szívét.",
-  p1: "Bárunkban érlelt sonkák, ínycsiklanydozó sajtok, olívabogyók, pinchók, vermutok és egyéb finomságok várnak. Boltunk polcain pedig többek között izgalmas krémek és szószok, kiváló minőségű halkonzervek, borok, cavak és sörök sorakoznak, amelyek közvetlenül Spanyolországból érkeznek.",
+  p: "A hely névadóját, a mangalicát számos izgalmas variációban kóstolhatod meg Dohány utcai éttermünkben. Étlapunkon megtalálhatóak az olyan hagyományos magyar ételek is, mint a gulyásleves, a csirkepaprikás vagy a túrógombóc. A klasszikus fogásokat modern köntösben kínáljuk, és kiemelt figyelmet szentelünk a friss, minőségi alapanyagoknak. Itallapunkon magyar borok, pálinkák és egyéb helyi specialitások széles választékát ajánljuk.",
+  p1: "Merülj el a magyar gasztronómia varázslatos világában, és reméljük, hogy egy felejthetetlen gasztronómiai élménnyel gazdagodva távozol tőlünk. Jó étvágyat kívánunk!",
   btn: "Étlapunk",
   url: "/etlap",
 };
 
 const textContentEn = {
   h4: "About us",
-  p: "We opened the very first spanish colmado of Budapest on Bartók Béla Street, in the immediate vicinity of St. Gellért Square in 2023, and since then we have been tirelessly striving to win the hearts of every guest who enters our doors.",
-  p1: "Our bar offers cured hams, mouth-watering cheeses, olives, pinchos, vermouths and other delicacies. On the shelves of our store you will find exciting creams and sauces, excellent quality canned fish, wines, cavas and beers, among others, all coming directly from Spain.",
+  p: "You can savor the namesake of the place, Mangalica pork, in various exciting variations in our restaurant on Dohány Street. Our menu also includes traditional Hungarian dishes such as goulash soup, chicken paprikash, or cottage cheese dumplings. With a modern touch, we elevate these classic dishes, prioritizing fresh, high-quality ingredients. Find your favouries among a wide selection of Hungarian wines, pálinkas, and other local specialties",
+  p1: "Immerse yourself in the enchanting world of Hungarian gastronomy, and we hope you leave with an unforgettable culinary experience. Bon appétit!",
   btn: "See the Menu",
   url: "/en/menu",
 };
@@ -45,7 +45,7 @@ const Story = ({ lang }) => {
         </div>
 
         <div className={style.textContainer}>
-          <h2 className={dosis.className}>{h2Text}</h2>
+          <h3 className={dosis.className}>{h2Text}</h3>
           <p>
             {pText} <br />
             <br />

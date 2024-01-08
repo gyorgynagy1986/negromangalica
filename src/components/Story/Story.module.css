@@ -38,7 +38,7 @@
   align-items: center;
 }
 
-.textContainer h2 {
+.textContainer h3 {
   color: var(--titleColor);
   font-size: max(var(--sectionTitleMin), min(9vw, var(--sectionTitleMax)));
   font-weight: 800;

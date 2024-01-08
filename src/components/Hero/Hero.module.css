@@ -44,7 +44,7 @@
   margin-bottom: 2rem;
 }
 
-.textContainer p {
+.textContainer h2 {
   font-size: var(--fontSizeP);
   line-height: 30px;
   margin-bottom: 4rem;

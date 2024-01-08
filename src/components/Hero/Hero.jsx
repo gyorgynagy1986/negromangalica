@@ -12,16 +12,16 @@ import HeroCoverPhoto from "../../../public/assets/hero/hero.png";
 const orelega = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
-  h1: "Negro Mangalica",
-  p: "Deli and bar, bar and deli, Spanish flavors on site and for takeaway.  Come and taste our delicacies, and take your favorites home!",
+  h1: "Negro Mangalica Bistro & Bar",
+  p: "Fedezd fel a tradicionális magyar ízeket, amelyek nálunk modern köntösben új életre kelnek!",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
   url: "/kapcsolat",
 };
 
 const textContentEn = {
-  h1: "Negro Mangalica",
-  p: "Deli and bar, bar and deli, Spanish flavors on site and for takeaway.  Come and taste our delicacies, and take your favorites home!",
+  h1: "Negro Mangalica Bistro & Bar",
+  p: "Explore the authentic and traditional flavors of Hungarian cuisine, expertly infused with a modern twist!",
   btn: "BOOK a table now",
   btn2: "Get in touch",
   url: "/en/contact",
@@ -62,7 +62,7 @@ const Hero = ({ reservation, lang }) => {
         <h1 className={orelega.className}>
           {!lang ? textContent.h1 : textContentEn.h1}
         </h1>
-        <p>{!lang ? textContent.p : textContentEn.p}</p>
+        <h2>{!lang ? textContent.p : textContentEn.p}</h2>
         <div className={style.btnContainer}>
           <Button
             btnBlue={true}

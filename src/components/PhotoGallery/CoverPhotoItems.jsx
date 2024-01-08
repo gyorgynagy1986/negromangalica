@@ -4,115 +4,86 @@ import React from "react";
 import Image from "next/image";
 import style from "./PhotoGallery.module.css";
 
-import photo from "../../../public/assets/gallery/covers/Gallery1.png";
-import photo1 from "../../../public/assets/gallery/covers/Gallery2.png";
-import photo2 from "../../../public/assets/gallery/covers/Gallery3.png";
-import photo3 from "../../../public/assets/gallery/covers/Gallery4.png";
-import photo4 from "../../../public/assets/gallery/covers/Gallery5.png";
-import photo5 from "../../../public/assets/gallery/covers/Gallery6.png";
-import photo6 from "../../../public/assets/gallery/covers/Gallery7.png";
-import photo7 from "../../../public/assets/gallery/covers/Gallery8.png";
-import photo8 from "../../../public/assets/gallery/covers/Gallery9.png";
-import photo9 from "../../../public/assets/gallery/covers/Gallery10.png";
-import photo10 from "../../../public/assets/gallery/covers/Gallery11.png";
-import photo11 from "../../../public/assets/gallery/covers/Gallery12.png";
-import photo12 from "../../../public/assets/gallery/covers/Gallery13.png";
-import photo13 from "../../../public/assets/gallery/covers/Gallery14.png";
-import photo14 from "../../../public/assets/gallery/covers/Gallery15.png";
-import photo15 from "../../../public/assets/gallery/covers/Gallery16.png";
-import photo16 from "../../../public/assets/gallery/covers/Gallery17.png";
-import photo17 from "../../../public/assets/gallery/covers/Gallery18.png";
+import photo1 from "../../../public/assets/gallery/covers/image00001.webp";
+import photo2 from "../../../public/assets/gallery/covers/image00002.webp";
+import photo3 from "../../../public/assets/gallery/covers/image00003.webp";
+import photo4 from "../../../public/assets/gallery/covers/image00004.webp";
+import photo5 from "../../../public/assets/gallery/covers/image00005.webp";
+import photo6 from "../../../public/assets/gallery/covers/image00006.webp";
+import photo7 from "../../../public/assets/gallery/covers/image00007.webp";
+import photo8 from "../../../public/assets/gallery/covers/image00008.webp";
+import photo9 from "../../../public/assets/gallery/covers/image00009.webp";
+import photo10 from "../../../public/assets/gallery/covers/image00010.webp";
+import photo11 from "../../../public/assets/gallery/covers/image00011.webp";
+import photo12 from "../../../public/assets/gallery/covers/image00012.webp";
+import photo13 from "../../../public/assets/gallery/covers/image00014.webp";
+
 
 const photoGalleryCoverPhots = [
   {
     id: 1,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo,
+    url: photo1,
   },
   {
     id: 2,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo1,
+    url: photo2,
   },
   {
     id: 3,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo2,
+    url: photo3,
   },
   {
     id: 4,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo3,
+    url: photo4,
   },
   {
     id: 5,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo4,
+    url: photo5,
   },
   {
     id: 6,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo5,
+    url: photo6,
   },
   {
     id: 7,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo6,
+    url: photo7,
   },
   {
     id: 8,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo7,
+    url: photo8,
   },
   {
     id: 9,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo8,
+    url: photo9,
   },
   {
     id: 10,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo9,
+    url: photo10,
   },
   {
     id: 11,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo10,
+    url: photo11,
   },
   {
     id: 12,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo11,
+    url: photo12,
   },
   {
     id: 13,
     alt: "Negro Mangalica geléria cover photos",
-    url: photo12,
-  },
-  {
-    id: 14,
-    alt: "Negro Mangalica geléria cover photos",
     url: photo13,
-  },
-  {
-    id: 15,
-    alt: "Negro Mangalica geléria cover photos",
-    url: photo14,
-  },
-  {
-    id: 16,
-    alt: "Negro Mangalica geléria cover photos",
-    url: photo15,
-  },
-  {
-    id: 17,
-    alt: "Negro Mangalica geléria cover photos",
-    url: photo16,
-  },
-  {
-    id: 18,
-    alt: "Negro Mangalica geléria cover photos",
-    url: photo17,
   },
 ];
 
@@ -123,16 +94,15 @@ const CoverPhotoItems = ({ photoGalleryHandler }) => {
 
   return (
     <>
-      {photoGalleryCoverPhots.map((coverPhoto) => (
+      {photoGalleryCoverPhots.map((coverPhoto, idex) => (
         <div
           onClick={() => handleClick(coverPhoto.id)}
           className={style.hoverProperty}
-        >
+          key={idex}>
           <Image
             // priority
             placeholder="blur"
             onClick={() => handleClick(coverPhoto.id)}
-            key={coverPhoto.id}
             alt={coverPhoto.alt}
             src={coverPhoto.url}
           ></Image>

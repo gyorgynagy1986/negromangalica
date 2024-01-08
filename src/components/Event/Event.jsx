@@ -6,16 +6,15 @@ import { Grand_Hotel } from "next/font/google";
 const font = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
-  h2: "Szeretnél rendezvényt tartani a Negro Mangalicában ?",
-
-  p: "Keress minket bátran telefonon, vagy írj nekünk, ha szeretnél rendezvényt tartani nálunk!",
+  h2: "Szeretnél egy rendezvényt a Negro Mangalica-ban?",
+  p: "Hívj minket, vagy írj nekünk, és egyeztetjük a részleteket!",
   btn: "kapcsolat",
   url: "/kapcsolat",
 };
 
 const textContentEn = {
-  h2: "Want to have an event at Negro Mangalica ? ",
-  p: "Give us a call or drop us a message if you're interested in hosting an event!",
+  h2: "Would you like to host an event at Negro Mangalica?",
+  p: "Give us a call or send us a message, and we'll coordinate the details!",
   btn: "Get in touch",
   url: "/en/contact",
 };

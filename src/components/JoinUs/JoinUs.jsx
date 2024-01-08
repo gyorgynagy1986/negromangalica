@@ -14,7 +14,7 @@ const textContent = {
 };
 
 const textContentEn = {
-  h2: "Join our team! ",
+  h2: "Join our team!",
   btn: "I want to join",
   url: "/en/contact",
 };
@@ -22,19 +22,12 @@ const textContentEn = {
 const text = (
   <p className={style.h2}>
     Küldd el az önéletrajzod az{" "}
-    <a href="mailto:hola@negromangalica.hu" className={style.email}>
-      hola@negromangalica.hu{" "}
-    </a>{" "}
-    e-mail címre, és hamarosan keresni fogunk!
-  </p>
+    <a href="mailto:hola@negromangalica.hu" className={style.email}>hola@negromangalica.hu</a>{" "} e-mail címre a pozíció megjelölésével, mi pedig visszajelzünk!</p>
 );
 const textEn = (
   <p className={style.h2}>
     Send us your CV to{" "}
-    <a href="mailto:hola@negromangalica.hu" className={style.email}>
-    hola@negromangalica.hu{" "}
-    </a>{" "}
-    and we’ll get back to you soon!
+    <a href="mailto:hola@negromangalica.hu" className={style.email}>hola@negromangalica.hu</a>{" "}with the position, and we'll get back to you!
   </p>
 );
 
