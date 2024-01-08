@@ -63,11 +63,11 @@
   display: flex;
 }
 
-.textBoxContainer div:not(:last-child) {
+.textBoxContainer div {
   margin-bottom: 1rem;
 }
 
-.textBoxContainer div:nth-child(2) {
+.textBoxContainer div {
   margin-bottom: 3rem;
 }
 

@@ -45,14 +45,14 @@ const Contact = () => {
             <h2 className={dosis.className}>{textContent.h3}</h2>
             <div className={style.addresscontainer}>
               <p className={style.contactText}>
-                1111 Budapest, Bartók Béla út 16.
+              1074 Budapest, Dohány utca 36.
               </p>
               <Link href="https://maps.app.goo.gl/xaJvzrspqnAv693b9">
                 <Image alt="direction" src={Direction} />
               </Link>
             </div>
 
-            <p className={style.contactText}>+36 20 476 6558</p>
+            <p className={style.contactText}>+36 20 244 4733</p>
             <p className={style.contactText}>hello@negromangalica.hu</p>
           </div>
 

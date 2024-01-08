@@ -2,17 +2,14 @@ import React from 'react'
 
 
 const textContent = {
-  day: 'Hétfő - Csütörtök',
-  time: '17:00 - 23:00',
-  day2: 'Péntek - Vasárnap',
-  time2: '12:00 - 23:00'
+  day: 'Hétfő - Vasárnap',
+  time: '13:00 - 23:30',
+ 
 }
 
 const textContentEn = {
-  day: 'Monday - Thursday',
-  time: '17:00 - 23:00',
-  day2: 'Friday - Sunday',
-  time2: '12:00 - 23:00'
+  day: 'Monday - Sunday',
+  time: '13:00 - 23:30',
 }
 
 const ContactItems = ({lang}) => {
@@ -28,10 +25,6 @@ const ContactItems = ({lang}) => {
         <div>
             <p>{textLangLogic1}</p>
             <p>{textLangLogic2}</p>
-         </div>
-         <div>
-            <p>{textLangLogic3}</p>
-            <p>{textLangLogic4}</p>
          </div>
     </>
   )

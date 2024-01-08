@@ -5,7 +5,7 @@ import { Grand_Hotel } from "next/font/google";
 import Button from "../UI/Buttons/Button";
 import Image from "next/image";
 
-import ourStoryCoverPhoto from "../../../public/assets/sections/temp.png";
+import ourStoryCoverPhoto from "../../../public/assets/gallery/image00002.webp";
 
 const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 

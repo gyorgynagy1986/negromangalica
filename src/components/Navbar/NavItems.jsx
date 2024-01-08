@@ -54,7 +54,7 @@ const itemsEng = [
   },
   {
     id: 5,
-    name: "opening hours",
+    name: "Opening hours",
     url: "en/#opening",
   },
 ];
