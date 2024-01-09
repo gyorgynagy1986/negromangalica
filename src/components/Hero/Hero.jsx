@@ -7,7 +7,7 @@ import StickyNav from "../StickyNav/StickyNav";
 import Button from "../UI/Buttons/Button";
 import Image from "next/image";
 import ButtonGetInTouch from "../UI/Buttons/ButtonGetInTouch";
-import HeroCoverPhoto from "../../../public/assets/hero/hero.png";
+import HeroCoverPhoto from "../../../public/assets/hero/hero.svg";
 
 const orelega = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
@@ -52,7 +52,6 @@ const Hero = ({ reservation, lang }) => {
       {stickyNav && <StickyNav />}
       <div className={style.imageContainer}>
         <Image
-          placeholder="blur"
           alt="Negro Mangalica"
           priority
           src={HeroCoverPhoto}
