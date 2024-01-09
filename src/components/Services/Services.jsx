@@ -3,7 +3,7 @@
 import style from "./Services.module.css";
 import { Grand_Hotel } from "next/font/google";
 import Image from "next/image";
-import HeroCoverPhoto from "../../../public/assets/sections/temp.png";
+import HeroCoverPhoto from "../../../public/assets/sections/services.jpg";
 
 const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 

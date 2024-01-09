@@ -131,7 +131,7 @@
 @media only screen and (max-width: 681px) {
   .container {
     padding-left: 0rem;
-    padding-right: 0rem;
+    padding-right: 0rem;;
   }
 
   .ulContainer li::after {
@@ -146,6 +146,8 @@
 
   .imageContainer img {
     min-height: 177px;
+    padding-left: 2rem;
+    padding-right: 2rem;;
   }
 
   .textContainer h1 {

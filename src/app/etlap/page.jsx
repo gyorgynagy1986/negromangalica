@@ -27,7 +27,7 @@ const Menu = () => {
           placeholder="blur"
           priority
           alt="Negro Mangalica étterem itallapja"
-          src={itallap}
+          src={etlap}
         />
         <Image
           style={{ cursor: "pointer" }}
@@ -35,7 +35,7 @@ const Menu = () => {
           placeholder="blur"
           priority
           alt="Negro Mangalica étterem Étlapja"
-          src={etlap}
+          src={itallap}
         />
       </div>
     </>
