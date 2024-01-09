@@ -113,7 +113,7 @@ const Navbar = ({ NavFooter, nav, stickyPosition, colorMobileMenu }) => {
           <ul className={ulLogic}>
             <NavItems />
           </ul>
-          <div className={socialLinkContainerLogic}>
+          <div style={{whiteSpace:'nowrap'}} className={socialLinkContainerLogic}>
             <Link href={links.facebook}>
               <Image src={facebook} alt="Negro Mangalica facebbok oldala" />
             </Link>

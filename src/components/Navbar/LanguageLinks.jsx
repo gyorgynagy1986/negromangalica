@@ -46,7 +46,7 @@ const LanguageLinks = ({mobilStyle, mobileClose}) => {
 
   
   return (
-    <div className={mobilStyle && style.mobilStyle }>
+    <div style={{whiteSpace:'nowrap'}} className={mobilStyle && style.mobilStyle }>
          <Link onClick={mobileClose}  href={langHandlerEn}><span className={activeHandlerEn}>EN</span></ Link>
             <span className={style.activeLang}> / </span>
          <Link onClick={mobileClose} href={langHandlerHu}><span className={activeHandler} >HU</span></ Link>
