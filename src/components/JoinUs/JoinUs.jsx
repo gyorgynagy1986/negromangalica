@@ -22,12 +22,12 @@ const textContentEn = {
 const text = (
   <p className={style.h2}>
     Küldd el az önéletrajzod az{" "}
-    <a href="mailto:hola@negromangalica.hu" className={style.email}>hola@negromangalica.hu</a>{" "} e-mail címre a pozíció megjelölésével, mi pedig visszajelzünk!</p>
+    <a href="mailto:hola@negromangalica.hu" className={style.email}>hello@negromangalica.hu</a>{" "} e-mail címre a pozíció megjelölésével, mi pedig visszajelzünk!</p>
 );
 const textEn = (
   <p className={style.h2}>
     Send us your CV to{" "}
-    <a href="mailto:hola@negromangalica.hu" className={style.email}>hola@negromangalica.hu</a>{" "}with the position, and we'll get back to you!
+    <a href="mailto:hola@negromangalica.hu" className={style.email}>hello@negromangalica.hu</a>{" "}with the position, and we'll get back to you!
   </p>
 );
 

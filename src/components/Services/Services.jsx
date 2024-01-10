@@ -3,13 +3,13 @@
 import style from "./Services.module.css";
 import { Grand_Hotel } from "next/font/google";
 import Image from "next/image";
-import HeroCoverPhoto from "../../../public/assets/sections/services.jpg";
+import HeroCoverPhoto from "../../../public/assets/sections/4.jpg";
 
 const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h2: "Szolgáltatások ",
-  p: "Szervezz hozzánk céges rendezvényt, baráti összejövetelt, vagy születésnapot. Mi előkészítjük a helyszínt és odafigyelünk a részletekre, étel- és italválasztékunkkal pedig igazodunk az igényeitekhez és az alkalomhoz.",
+  p: "Szervezz hozzánk céges rendezvényt, baráti összejövetelt vagy születésnapot. Mi előkészítjük a helyszínt és odafigyelünk a részletekre, étel- és italválasztékunkkal pedig igazodunk az igényeitekhez és az alkalomhoz.",
   p1: "Céges rendezvények",
   p2: "Baráti összejövetelek",
   p3: "Születésnapok",
@@ -35,6 +35,7 @@ const Services = ({ lang }) => {
       <div className={style.prefixContainer}>
         <div className={style.imageContainer}>
           <Image
+          style={{borderRadius:"5px"}}
             placeholder="blur"
             alt="Negro Mangalica"
             src={HeroCoverPhoto}
