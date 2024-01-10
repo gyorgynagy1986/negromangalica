@@ -1,5 +1,5 @@
 export const links = {
-  facebook: "",
+  facebook: "https://www.facebook.com/NegroMangalica/",
   instagram: "",
   reservation:
     "https://reservours.com/negromangalica/tablereservation?s=google",
