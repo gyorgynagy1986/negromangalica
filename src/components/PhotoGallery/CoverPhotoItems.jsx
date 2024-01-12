@@ -16,7 +16,6 @@ import photo9 from "../../../public/assets/gallery/covers/image00009.webp";
 import photo10 from "../../../public/assets/gallery/covers/image00010.webp";
 import photo11 from "../../../public/assets/gallery/covers/image00011.webp";
 import photo12 from "../../../public/assets/gallery/covers/image00012.webp";
-import photo13 from "../../../public/assets/gallery/covers/image00014.webp";
 
 
 const photoGalleryCoverPhots = [
@@ -79,11 +78,6 @@ const photoGalleryCoverPhots = [
     id: 12,
     alt: "Negro Mangalica geléria cover photos",
     url: photo12,
-  },
-  {
-    id: 13,
-    alt: "Negro Mangalica geléria cover photos",
-    url: photo13,
   },
 ];
 
