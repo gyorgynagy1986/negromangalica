@@ -26,8 +26,8 @@ const text = (
 );
 const textEn = (
   <p className={style.h2}>
-    Send us your CV to{" "}
-    <a href="mailto:hola@negromangalica.hu" className={style.email}>hello@negromangalica.hu</a>{" "}with the position, and we'll get back to you!
+    Submit your CV to {" "}
+    <a href="mailto:hola@negromangalica.hu" className={style.email}>hello@negromangalica.hu</a>{" "}indicating the position, and we'll get back to you!
   </p>
 );
 

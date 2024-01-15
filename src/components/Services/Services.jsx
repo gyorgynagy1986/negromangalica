@@ -9,7 +9,7 @@ const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h2: "Szolgáltatások ",
-  p: "Szervezz hozzánk céges rendezvényt, baráti összejövetelt vagy születésnapot. Mi előkészítjük a helyszínt és odafigyelünk a részletekre, étel- és italválasztékunkkal pedig igazodunk az igényeitekhez és az alkalomhoz.",
+  p: "Szervezz hozzánk céges rendezvényt, baráti összejövetelt vagy születésnapot. Mi előkészítjük a helyszínt, étel- és italválasztékunkkal pedig igazodunk az igényeitekhez és az alkalomhoz.",
   p1: "Céges rendezvények",
   p2: "Baráti összejövetelek",
   p3: "Születésnapok",
@@ -17,7 +17,7 @@ const textContent = {
 
 const textContentEn = {
   h2: "Services ",
-  p: "Organize your corporate event, friendly gathering, or birthday party with us. We'll prepare the venue and pay attention to the details, tailoring our food and drink selection to your preferences and the occasion.",
+  p: "Organize your corporate event, friendly gathering, or birthday party with us. We'll prepare the venue and tailor our food and drink selection to your preferences and the occasion.",
   p1: "Corporate events",
   p2: "Get-togethers",
   p3: "Birthday celebrations",

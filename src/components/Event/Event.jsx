@@ -13,8 +13,8 @@ const textContent = {
 };
 
 const textContentEn = {
-  h2: "Would you like to host an event at Negro Mangalica?",
-  p: "Give us a call or send us a message, and we'll coordinate the details!",
+  h2: "Insterested in hosting an event at Negro Mangalica?",
+  p: "Call us or send an e-mail if you’d like to organize an event at our restaurant!",
   btn: "Get in touch",
   url: "/en/contact",
 };

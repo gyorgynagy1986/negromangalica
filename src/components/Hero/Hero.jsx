@@ -13,7 +13,7 @@ const orelega = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h1: "Negro Mangalica Bistro & Bar",
-  p: "Fedezd fel a tradicionális magyar ízeket, amelyek nálunk modern köntösben új életre kelnek!",
+  p: "Fedezd fel a tradicionális magyar ízeket, melyek nálunk modern köntösben új életre kelnek!",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
   url: "/kapcsolat",
@@ -21,7 +21,7 @@ const textContent = {
 
 const textContentEn = {
   h1: "Negro Mangalica Bistro & Bar",
-  p: "Explore the authentic and traditional flavors of Hungarian cuisine, expertly infused with a modern twist!",
+  p: "Explore the authentic and traditional flavors of Hungarian cuisine, infused with a modern twist!",
   btn: "BOOK a table now",
   btn2: "Get in touch",
   url: "/en/contact",
