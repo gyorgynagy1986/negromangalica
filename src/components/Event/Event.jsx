@@ -14,7 +14,7 @@ const textContent = {
 
 const textContentEn = {
   h2: "Insterested in hosting an event at Negro Mangalica?",
-  p: "Call us or send an e-mail if you’d like to organize an event at our restaurant!",
+  p: "Call us or send an e-mail if you’d like to organize an event in our restaurant!",
   btn: "Get in touch",
   url: "/en/contact",
 };
