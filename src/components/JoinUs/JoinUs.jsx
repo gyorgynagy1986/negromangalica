@@ -21,7 +21,7 @@ const textContentEn = {
 
 const text = (
   <p className={style.h2}>
-    Küldd el az önéletrajzod az{" "}
+    Küldd el az önéletrajzod a{" "}
     <a href="mailto:hola@negromangalica.hu" className={style.email}>hello@negromangalica.hu</a>{" "} e-mail címre a pozíció megjelölésével, mi pedig visszajelzünk!</p>
 );
 const textEn = (

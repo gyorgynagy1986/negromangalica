@@ -20,7 +20,7 @@ const textContentEn = {
 };
 
 const Event = ({ lang }) => {
-  const h2Logic = !lang ? textContent.h2 : textContentEn.h2;
+  // const h2Logic = !lang ? textContent.h2 : textContentEn.h2;
   const pLogic = !lang ? textContent.p : textContentEn.p;
   const buttonNameLogic = !lang ? textContent.btn : textContentEn.btn;
   const urlLogic = !lang ? textContent.url : textContentEn.url;
@@ -28,7 +28,7 @@ const Event = ({ lang }) => {
   return (
     <section className={style.container}>
       <div className={style.containerText}>
-        <h2 className={font.className}>{h2Logic}</h2>
+       {lang ? <h2 className={font.className}>Insterested in hosting an event at <span style={{whiteSpace:"nowrap", lineHeight:"145%"}}>Negro Mangalica?</span> </h2> : <h2 className={font.className}>Szeretnél egy rendezvényt a <span style={{whiteSpace:"nowrap", lineHeight:"145%"}}>Negro Mangalica-ban?</span></h2>}
         <p className={style.h2}>{pLogic}</p>
         <Button
           btnBlue={true}
