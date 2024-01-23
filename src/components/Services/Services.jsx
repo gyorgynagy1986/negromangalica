@@ -17,7 +17,7 @@ const textContent = {
 
 const textContentEn = {
   h2: "Services ",
-  p: "Organize your corporate event, friendly gathering, or birthday party with us. We'll prepare the venue and tailor our food and drink selection to your preferences and the occasion.",
+  p: "Organize your corporate event, friendly gathering or birthday party with us. We'll prepare the venue and tailor our food and drink selection to your preferences and the occasion.",
   p1: "Corporate events",
   p2: "Get-togethers",
   p3: "Birthday celebrations",

@@ -6,7 +6,7 @@ import { Grand_Hotel } from "next/font/google";
 const font = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
-  h2: "Szeretnél egy rendezvényt a Negro Mangalica-ban?",
+  h2: "Szeretnél egy rendezvényt a Negro Mangalicaban?",
   p: "Hívj minket, vagy írj nekünk, és egyeztetjük a részleteket!",
   btn: "kapcsolat",
   url: "/kapcsolat",
