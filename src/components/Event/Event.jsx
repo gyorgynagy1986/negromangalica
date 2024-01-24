@@ -28,7 +28,7 @@ const Event = ({ lang }) => {
   return (
     <section className={style.container}>
       <div className={style.containerText}>
-       {lang ? <h2 className={font.className}>Insterested in hosting an event at <span style={{whiteSpace:"nowrap", lineHeight:"145%"}}>Negro Mangalica?</span> </h2> : <h2 className={font.className}>Szeretnél egy rendezvényt a <span style={{whiteSpace:"nowrap", lineHeight:"145%"}}>Negro Mangalicaban?</span></h2>}
+       {lang ? <h2 className={font.className}>Insterested in hosting an event at <span style={{whiteSpace:"nowrap", lineHeight:"145%"}}>Negro Mangalica?</span> </h2> : <h2 className={font.className}>Szeretnél egy rendezvényt a <span style={{whiteSpace:"nowrap", lineHeight:"145%"}}>Negro Mangalicában?</span></h2>}
         <p className={style.h2}>{pLogic}</p>
         <Button
           btnBlue={true}
