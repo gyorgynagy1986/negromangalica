@@ -19,7 +19,7 @@ const textContent = {
 
 const textContentEn = {
   h4: "About us",
-  p: "In the heart of the 7th district, our restaurant invites you to indulge in the namesake of the place – Mangalica pork – in various exciting variations, whether it's a rich ham plate or prepared with red wine. Traditional Hungarian favourites such as goulash, chicken paprikash, or cottage cheese dumplings are also featured in the menu. We present these classic dishes with a fresh perspective, while we are dedicated to using high-quality ingredients. Our drink menu boasts a wide selection of Hungarian wines, pálinkas, and other local specialties.",
+  p: "In the heart of the 7th district, our restaurant invites you to indulge in the namesake of the place – Mangalica pork – in various exciting variations, whether it's a rich ham plate with forest mushrooms or prepared with red wine. Traditional Hungarian favourites such as goulash, chicken paprikash, or cottage cheese dumplings are also featured in the menu. We present these classic dishes with a fresh perspective, while we are dedicated to using high-quality ingredients. Our drink menu boasts a wide selection of Hungarian wines, pálinkas, and other local specialties.",
   p1: "Explore the world of Hungarian cuisine and enjoy a memorable dining experience! Bon appétit!",
   btn: "See the Menu",
   url: "/en/menu",
