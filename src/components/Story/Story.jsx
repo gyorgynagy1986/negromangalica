@@ -11,7 +11,7 @@ const dosis = Grand_Hotel({ subsets: ["latin"], weight: "400" });
 
 const textContent = {
   h4: "Rólunk",
-  p: "A hely névadóját, a mangalicát számos izgalmas variációban kóstolhatod meg Dohány utcai éttermünkben, legyen az egy gazdag sonkatál erdei gombákkal gazdagítva, vagy épp vörösborral készítve, dödöllével ölelve. Étlapunkon megtalálhatóak olyan hagyományos magyar ételek is, mint a gulyásleves, a csirkepaprikás vagy a túrógombóc. A klasszikus fogásokat újragondolva tálaljuk, kiemelt figyelmet fordítva a friss, minőségi alapanyagokra. Itallapunkon magyar borok, pálinkák és egyéb helyi specialitások széles választékát kínáljuk.",
+  p: "A hely névadóját, a mangalicát számos izgalmas variációban kóstolhatod meg Dohány utcai éttermünkben, legyen az egy sonkatál erdei gombákkal gazdagítva, vagy épp vörösborral készítve, dödöllével ölelve. Étlapunkon megtalálhatóak olyan hagyományos magyar ételek is, mint a gulyásleves, a csirkepaprikás vagy a túrógombóc. A klasszikus fogásokat újragondolva tálaljuk, kiemelt figyelmet fordítva a friss, minőségi alapanyagokra. Itallapunkon magyar borok, pálinkák és egyéb helyi specialitások széles választékát kínáljuk.",
   p1: "Ismerd meg a magyar konyha izgalmas világát, és vigyél magaddal egy különleges gasztronómiai élményt! Jó étvágyat kívánunk!",
   btn: "Étlapunk",
   url: "/etlap",
