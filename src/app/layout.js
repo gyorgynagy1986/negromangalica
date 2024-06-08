@@ -11,7 +11,7 @@ const mukta = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500"] });
 export const metadata = {
   title: "Negro Mangalica",
   description:
-    "Az Negro Mangalica egy Deli és bár Budapesten, ahol spanyol ízekkel kényeztetünk helyben és elvitelre is. ",
+    "Fedezd fel a tradicionális magyar ízek világát, ahol a hagyomány és modernitás találkozik! Konyhánkban a klasszikus magyar receptek újragondolt formában, friss alapanyagokkal és kreatív megoldásokkal kerülnek az asztalra.",
 };
 
 export default function RootLayout({ children }) {
